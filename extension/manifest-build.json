@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Copy Instagram Images",
+  "description": "A browser extension that lets you right-click & copy the images from Instagram",
+  "permissions": ["storage"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_title": "Copy Instagram Images",
+    "default_icon": "images/CII-32.png",
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "images/CII-16.png",
+    "32": "images/CII-32.png",
+    "48": "images/CII-48.png",
+    "64": "images/CII-64.png",
+    "128": "images/CII-128.png"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": ["https://www.instagram.com/*"],
+      "js": ["content_script.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": ["<all_urls>"],
+      "resources": ["**/*", "*"],
+      "use_dynamic_url": true
+    }
+  ]
+}
