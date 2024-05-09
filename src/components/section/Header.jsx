@@ -5,7 +5,7 @@ function Header() {
     <Navbar className="bg-content">
       <NavbarBrand className="gap-2 justify-center">
         <a
-          href="https://github.com/sapondanaisriwan/copy-instagram-image"
+          href="https://github.com/sapondanaisriwan/copy-instagram-images"
           target="_blank"
           className="flex items-center gap-2 justify-center"
         >
