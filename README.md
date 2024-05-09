@@ -1,61 +1,42 @@
+<div align="center">
 
-# NextJS & CRXJS chrome extension boilerplate
+# Hide Shorts for YouTube
 
-A chrome extension boilerplate using Next.js for building products and CRXJS for development.
+A browser extension that lets you right-click & copy the images from Instagram
 
-## Why need to combine NextJS with CRXJS?
+[![Star][star-badge]][star]
+[![Forks][fork-badge]][members]
+[![MIT License][mit-badge]](./LICENSE)
 
-- I'm experiencing [content script injected gets delayed a lot](https://github.com/crxjs/chrome-extension-tools/issues/391) when build the products.
+<img src="https://github.com/sapondanaisriwan/copy-instagram-images/assets/64634605/13f098a9-fd1b-4b00-b0c4-9a3f03dcd7c5" width="100%"/>
 
-so I decided to choose NextJS for building the product instead of CRXJS.
+</div>
 
-## Quick Start
+[star]: https://github.com/sapondanaisriwan/copy-instagram-images/stargazers
+[members]: https://github.com/sapondanaisriwan/copy-instagram-images/network/members
+[star-badge]: https://img.shields.io/github/stars/sapondanaisriwan/copy-instagram-images
+[fork-badge]: https://img.shields.io/github/forks/sapondanaisriwan/copy-instagram-images?style=flat-square
+[mit-badge]: https://img.shields.io/badge/License-MIT-green.svg
 
-1. **Clone the project**:
+## ⬇️ Download
 
-```bash
-$ git clone https://github.com/sapondanaisriwan/nextjs-crxjs-chrome-extension.git
-```
+- [Extension](https://chrome.google.com/webstore/detail/copy-instagram-images/ndnopghglnpmijimffemkhmaoojldlbf)
+- [Userstyle](https://userstyles.world/style/15193/copy-instagram-images)
 
-2. **Install dependencies**:
+## 🧑‍💻 Contributing
 
-```bash
-$ npm install
-```
+Any contribution is greatly appreciated, please take a look at [CONTRIBUTING](./CONTRIBUTING.md)
 
-## Development
+## 💰 Support me
 
-To start development, run:
+If you like this project you can tip me for my hard work at
 
-```bash
-$ npm run dev
-```
+[![ko-fi.com](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/sapondanaisriwan)
 
-Alternatively, you can click the "Run" button at the bottom left corner of your VS Code.
+## ✉️ Feedback
 
-![](https://i.imgur.com/2wAhMfn.png)
+If you have any feedback, please reach out to me at sapondanaisriwan@gmail.com
 
-## Building
+## ©️ License
 
-To build the project, use:
-
-```bash
-$ npm run build
-```
-
-Alternatively, you can click the "Run" button at the bottom left corner of your VS Code.
-
-![](https://i.imgur.com/2wAhMfn.png)
-
-## Loading Extension
-
-#### Chrome / Edge
-
-1. Open `chrome://extensions` or `edge://extensions` in your browser.
-2. Toggle on the "Developer mode".
-3. Click on "Load unpacked" button.
-4. Select the folder
-   - `nextjs-crxjs-chrome-extension/dist` for development.
-   - `nextjs-crxjs-chrome-extension/build` for building.
-
-Feel free to reach out if you have any questions or need further assistance. We appreciate your contributions! 🚀
+Code released under the [MIT](./LICENSE) license.
