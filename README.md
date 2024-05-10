@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hide Shorts for YouTube
+# Copy Instagram Images
 
 A browser extension that lets you right-click & copy the images from Instagram
 
