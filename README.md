@@ -20,7 +20,7 @@ A browser extension that lets you right-click & copy the images from Instagram
 
 ## ⬇️ Download
 
-- [Extension](https://chrome.google.com/webstore/detail/copy-instagram-images/ndnopghglnpmijimffemkhmaoojldlbf)
+- [Extension](https://chromewebstore.google.com/detail/copy-instagram-images/ndnopghglnpmijimffemkhmaoojldlbf)
 - [Userstyle](https://userstyles.world/style/15193/copy-instagram-images)
 
 ## 🧑‍💻 Contributing
